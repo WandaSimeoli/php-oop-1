@@ -14,7 +14,7 @@ class Movie {
        
     }
     public function getMovie() {
-        return $this->title.' '.$this->year.' '.$this->runningTime;
+        return $this->title.' '.$this->year.' '.$this->runningTime.' ';
     }
     public function getArray() {
         return $this->genre;
